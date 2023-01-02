@@ -1,70 +1,62 @@
 .header {
-    margin: 0 2.5rem;
-    padding: .5rem 0;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+  margin: 0 2.5rem;
+  padding: 0.5rem 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .headerLeft,
 .headerRight {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-a>span {
-    margin: 0 30px;
-    font-size: 13px;
-    cursor: pointer;
-    color: white;
-    font-size: 2rem;
+a > span {
+  margin: 0 30px;
+  font-size: 13px;
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
 }
 
-a>span:hover {
-    color: red;
+a > span:hover {
+  color: red;
 }
 
 .header_icon {
-    width: 80px;
+  width: 80px;
 }
 
-
 .header_icon:hover {
-    transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .headerRight input {
-    width: 130px;
-    height: 30px;
-    font-size: 20px;
-    border-radius: 30px;
-    background-color: rgb(255, 215, 0);
-    border: none;
-outline: none;
-padding-left:15px;  
-padding-right: 67px;
-
+  width: 130px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: rgb(255, 215, 0);
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  padding-right: 67px;
 }
 .headerRight input::placeholder {
-    font-size: 14.5px;
-    color: black;
-   
+  font-size: 14.5px;
+  color: black;
 }
 
-
-
-
 .headerRightH1 {
-    font-size: 16px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
-    border-radius: 30px;
-    background: linear-gradient(45deg, rgb(145, 255, 0), rgb(239, 90, 9));
-    transform: translateX(-60px);
-    cursor: pointer;
-    
-
+  font-size: 16px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  border-radius: 30px;
+  background: linear-gradient(45deg, rgb(145, 255, 0), rgb(239, 90, 9));
+  transform: translateX(-60px);
+  cursor: pointer;
 }
